@@ -14,7 +14,7 @@
    
 <section class="position-relative" style="height: 70vh;">
   <div class="position-absolute top-0 start-0 w-100 h-100">
-    <img src="<?= base_url(); ?>public/assets/img/normal/appdev.jpg" alt="Website Banner" class="w-100 h-100 object-fit-cover">
+    <img src="<?= base_url(); ?>public/assets/img/brand/mobile.jpg" alt="Website Banner" class="w-100 h-100 object-fit-cover">
   </div>
 </section>
 
@@ -116,6 +116,11 @@
       </div>
    </div>
 </section>
+
+  <section class="process-section">
+    <h1>Our Trusted Mobile App Development Process</h1>
+    <img src="<?= base_url(); ?>public/assets/img/normal/react1.jpg">
+  </section>
 
 <?= view('/include/footer') ?>
 

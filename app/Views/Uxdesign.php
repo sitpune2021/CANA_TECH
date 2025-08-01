@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8 text-center">
-                <h2 class="section-title " style="font-size:40px;">UI and UX DESIGN</h2>
+                <h2 class="section-title text-dark" style="font-size:40px;">UI and UX DESIGN</h2>
                 <p>
                     CANATECH is a premier UI and UX design company with expert designers.
                     We understand that User Experience Design encompasses much more than
@@ -30,7 +30,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h2 class="section-title"style="font-size:40px;">UI and UX DESIGN  Design Technologies</h2>
+                <h2 class="section-title text-dark"style="font-size:40px;">UI and UX DESIGN  Design Technologies</h2>
             </div>
         </div>
        
@@ -94,7 +94,7 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h2 class="section-title display-5 fw-bold " style="font-size:40px;">UI and UX Design Company</h2>
+                <h2 class="section-title display-5 fw-bold text-dark " style="font-size:40px;">UI and UX Design Company</h2>
             </div>
         </div>
  
@@ -108,7 +108,7 @@
             <div class="col-md-7">
                 <h4 class="fw-semibold mb-3">Creative Digital Experiences</h4>
                 <p class="lead text-muted">
-                As a UI and UX design company or User Interface designing service in Pune, we offer proficient help to associations in designing their Web UI services and mobile interface design services. We will likely create a User-friendly mobile and web application. In the event that you are in a scan for the best interface for your product, at that point we are ones whom you have to approach. At AppTech, we know exceptionally well that giving “Originator User Experience” to somebody who might utilize the outline created by you isn’t too simple as you won’t be there to control or run with them constantly. This by itself is the reason we truly feel that a plan ought not exclusively to be anything but difficult to utilize yet in addition simple alongside being natural. if you are looking for UI and UX design company in Pune then we are the best choice for you.
+                As a UI and UX design company or User Interface designing service in Pune, we offer proficient help to associations in designing their Web UI services and mobile interface design services. We will likely create a User-friendly mobile and web application. In the event that you are in a scan for the best interface for your product, at that point we are ones whom you have to approach. At Canatech, we know exceptionally well that giving “Originator User Experience” to somebody who might utilize the outline created by you isn’t too simple as you won’t be there to control or run with them constantly. This by itself is the reason we truly feel that a plan ought not exclusively to be anything but difficult to utilize yet in addition simple alongside being natural. if you are looking for UI and UX design company in Pune then we are the best choice for you.
                 </p>
                
             </div>

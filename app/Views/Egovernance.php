@@ -65,7 +65,8 @@
 
 
   <!-- What Sets Us Apart -->
-  <section class="what-sets-us-apart" style="background: #f8f9fa;" data-aos="fade-up">
+ 
+  <section class="what-sets-us-apart  team-area " style="background: #f8f9fa;" data-aos="fade-up " data-bg-src="<?=base_url();?>public/assets/img/bg/team_bg_1.png">
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-10 mt-5">
@@ -161,22 +162,30 @@
   </section>
 
 <!-- Section 5: Government Project Cards -->
-<section class="mb-5  gov-project-cards" style="background-color: #ffffff;">
+<!-- Section 5: Government Project Cards -->
+<section class="mb-5 gov-project-cards" style="background-color: #ffffff;">
   <div class="container">
     <div class="text-center mb-5">
-      <h3 class="fw-bold  " style="font-size: 2.5rem;">Our Government Project Solutions</h3>
+      <h3 class="fw-bold" style="font-size: 2.5rem;">Our Government Project Solutions</h3>
     </div>
     <div class="row g-4">
+
       <!-- Card 1 -->
       <div class="col-md-6">
         <div class="border rounded p-4 h-100 shadow-sm bg-light">
-          <p class="mb-1 text-primary fs-5">Zilla Parishad</p>
-          <h5 class="fw-bold ">Subhe & Majur Santha Registration</h5>
+          <h5 class="fw-bold">Subhe & Majur Santha Registration</h5>
           <p class="text-muted">A streamlined digital registration system for Subhe (Construction Individuals) and Majur Santhas (Labor Co-operatives).</p>
           <ul class="ps-3 text-muted" style="list-style-type: disc;">
             <li>Secure and verified workflow</li>
             <li>Centralized record storage</li>
-            <li>Instant data access and updates</li>
+            <li class="d-flex justify-content-between align-items-center">
+              Instant data access and updates
+              <div class="d-inline-flex ms-2">
+                <img src="<?= base_url(); ?>public/assets/img/team/pune2.png" alt="Logo 1" style="max-width: 100px;" class="me-1">
+                <img src="<?= base_url(); ?>public/assets/img/team/t.jpeg" alt="Logo 2" style="width: 80px;">
+                <img src="<?= base_url(); ?>public/assets/img/team/j.jpeg" alt="Logo 2" style="max-width: 100px;">
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -184,13 +193,18 @@
       <!-- Card 2 -->
       <div class="col-md-6">
         <div class="border rounded p-4 h-100 shadow-sm bg-light">
-          <p class="mb-1 text-primary fs-5">Zilla Parishad</p>
-          <h5 class="fw-bold ">Work Distribution System</h5>
-          <p class="text-muted">Automated allocation and tracking of government projects to registered Santhas.</p>
+          <h5 class="fw-bold">Work Distribution System</h5>
+          <p class="text-muted">Automated allocation and tracking of government projects <br>to registered Santhas.</p>
           <ul class="ps-3 text-muted" style="list-style-type: disc;">
             <li>Smart analytics and reporting</li>
             <li>Notification and feedback module</li>
-            <li>Real-time status updates</li>
+            <li class="d-flex justify-content-between align-items-center">
+              Real-time status updates
+              <div class="d-inline-flex ms-2">
+                <img src="<?= base_url(); ?>public/assets/img/team/satara.jpeg" alt="Logo 1" style="max-width: 170px;" class="me-1">
+                 
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -198,13 +212,18 @@
       <!-- Card 3 -->
       <div class="col-md-6">
         <div class="border rounded p-4 h-100 shadow-sm bg-light">
-          <p class="mb-1 text-primary fs-5">Municipal Corporation</p>
-          <h5 class="fw-bold ">STP Water Distribution System</h5>
+          <h5 class="fw-bold">STP Water Distribution System</h5>
           <p class="text-muted">Digital tracking & billing platform for sewage treatment plant (STP) water supply to builders.</p>
           <ul class="ps-3 text-muted" style="list-style-type: disc;">
             <li>Builder request portal</li>
             <li>Auto-allotment with meter tracking</li>
-            <li>Usage analytics and invoicing</li>
+            <li class="d-flex justify-content-between align-items-center">
+              Usage analytics and invoicing
+              <div class="d-inline-flex ms-2">
+                <img src="<?= base_url(); ?>public/assets/img/team/pcmc.jpeg" alt="Logo 1" style="max-width: 100px;" class="me-1">
+                <img src="<?= base_url(); ?>public/assets/img/team/pune2.png" alt="Logo 2" style="max-width: 100px;">
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -212,19 +231,44 @@
       <!-- Card 4 -->
       <div class="col-md-6">
         <div class="border rounded p-4 h-100 shadow-sm bg-light">
-          <p class="mb-1 text-primary fs-5">Municipal Corporation</p>
-          <h5 class="fw-bold ">Toilet Cleaning Monitoring System</h5>
+          <h5 class="fw-bold">Toilet Cleaning Monitoring System</h5>
           <p class="text-muted">Mobile-based hygiene tracking system for public toilets with real-time staff monitoring.</p>
           <ul class="ps-3 text-muted" style="list-style-type: disc;">
             <li>Live cleanliness status updates</li>
             <li>QR-based reporting system</li>
-            <li>Automated alerts and dashboard</li>
+            <li class="d-flex justify-content-between align-items-center">
+              Automated alerts and dashboard
+              <div class="d-inline-flex ms-2">
+                <img src="<?= base_url(); ?>public/assets/img/team/pcmc.jpeg" alt="Logo 1" style="max-width: 100px;" class="me-1">
+              
+              </div>
+            </li>
           </ul>
         </div>
       </div>
+
+
+      <!-- Card 5 -->
+      <div class="col-md-6">
+        <div class="border rounded p-4 h-100 shadow-sm bg-light">
+          <h5 class="fw-bold">Field Visit & Monitoring System</h5>
+          <p class="text-muted">A combined web and mobilebased application designed for tracking onground
+           inspections, staff visits, and realtime reporting.</p>
+          <ul class="ps-3 text-muted" style="list-style-type: disc;">
+            <li>  User Role Management (CEO, Add. CEO, Field Officers)</li>
+            <li>Custom Questionnaires and Department Masters</li>
+            <li>Field data entry with photo uploads and offline mode support</li>
+            <li>Realtime tracking, approvals, and officer remarks
+            
+            </li>
+          </ul>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
+
 <script>
   AOS.init({ duration: 1000, once: true });
 </script>

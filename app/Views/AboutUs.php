@@ -68,115 +68,6 @@
             </div>
          </div>
       </div>
-      <!-- <section class="process-area bg-top-center space" data-bg-src="<?=base_url();?>public/assets/img/bg/process_bg_1.jpg">
-         <div class="container">
-            <div class="process-area">
-               <div class="process-content text-center">
-                  <div class="title-area mb-55">
-                     <span class="sub-title style1 text-anime-style-2">Our Process</span>
-                     <h2 class="sec-title text-anime-style-3">How It Work Process!</h2>
-                  </div>
-               </div>
-               <div class="slider-area">
-                  <div class="swiper th-slider has-shadow" id="processSlider" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"4"}}}'>
-                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                           <div class="process-item wow fadeInUp" data-wow-delay=".2s">
-                              <div class="process-img mb-20"><a href="project-details.html"><img src="<?=base_url();?>public/assets/img/process/process_1_1.jpg" alt="service image"></a></div>
-                              <div class="process-content text-center">
-                                 <h3 class="box-title mb-10"><a href="project-details.html">Planning</a></h3>
-                                 <p class="process-text">Identify and create relevant features that enhance the model's performance.</p>
-                                 <p class="box-number">STEP -01</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="process-item wow fadeInUp" data-wow-delay=".4s">
-                              <div class="process-img mb-20"><a href="project-details.html"><img src="<?=base_url();?>public/assets/img/process/process_1_2.jpg" alt="service image"></a></div>
-                              <div class="process-content text-center">
-                                 <h3 class="box-title mb-10"><a href="project-details.html">Design & Execution</a></h3>
-                                 <p class="process-text">Retrain the model with new data to maintain relevance and effectiveness.</p>
-                                 <p class="box-number">STEP -02</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="process-item wow fadeInUp" data-wow-delay=".6s">
-                              <div class="process-img mb-20"><a href="project-details.html"><img src="<?=base_url();?>public/assets/img/process/process_1_3.jpg" alt="service image"></a></div>
-                              <div class="process-content text-center">
-                                 <h3 class="box-title mb-10"><a href="project-details.html">Monitoring</a></h3>
-                                 <p class="process-text">Integrate the trained model into the desired platform, application, or system.</p>
-                                 <p class="box-number">STEP -03</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="process-item wow fadeInUp" data-wow-delay=".8s">
-                              <div class="process-img mb-20"><a href="project-details.html"><img src="<?=base_url();?>public/assets/img/process/process_1_4.jpg" alt="service image"></a></div>
-                              <div class="process-content text-center">
-                                 <h3 class="box-title mb-10"><a href="project-details.html">Report & Sign-out</a></h3>
-                                 <p class="process-text">Incorporate user feedback and system outcomes for iterative improvements.</p>
-                                 <p class="box-number">STEP -04</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="process-item wow <br /> <b>Warning</b>: Undefined array key 4 in <b>E:\web-dev\angfuzsoft\html\atek-html\build\inc\sections\process-v1.php</b> on line <b>62</b><br />" data-wow-delay="<br />
-                              <b>Warning</b>:  Undefined array key 4 in <b>E:\web-dev\angfuzsoft\html\atek-html\build\inc\sections\process-v1.php</b> on line <b>62</b><br />
-                              ">
-                              <div class="process-img mb-20"><a href="project-details.html"><img src="<?=base_url();?>public/assets/img/process/process_1_1.jpg" alt="service image"></a></div>
-                              <div class="process-content text-center">
-                                 <h3 class="box-title mb-10"><a href="project-details.html">Planning</a></h3>
-                                 <p class="process-text">Identify and create relevant features that enhance the model's performance.</p>
-                                 <p class="box-number">STEP -01</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="process-item wow <br /> <b>Warning</b>: Undefined array key 5 in <b>E:\web-dev\angfuzsoft\html\atek-html\build\inc\sections\process-v1.php</b> on line <b>62</b><br />" data-wow-delay="<br />
-                              <b>Warning</b>:  Undefined array key 5 in <b>E:\web-dev\angfuzsoft\html\atek-html\build\inc\sections\process-v1.php</b> on line <b>62</b><br />
-                              ">
-                              <div class="process-img mb-20"><a href="project-details.html"><img src="<?=base_url();?>public/assets/img/process/process_1_2.jpg" alt="service image"></a></div>
-                              <div class="process-content text-center">
-                                 <h3 class="box-title mb-10"><a href="project-details.html">Design & Execution</a></h3>
-                                 <p class="process-text">Retrain the model with new data to maintain relevance and effectiveness.</p>
-                                 <p class="box-number">STEP -02</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="process-item wow <br /> <b>Warning</b>: Undefined array key 6 in <b>E:\web-dev\angfuzsoft\html\atek-html\build\inc\sections\process-v1.php</b> on line <b>62</b><br />" data-wow-delay="<br />
-                              <b>Warning</b>:  Undefined array key 6 in <b>E:\web-dev\angfuzsoft\html\atek-html\build\inc\sections\process-v1.php</b> on line <b>62</b><br />
-                              ">
-                              <div class="process-img mb-20"><a href="project-details.html"><img src="<?=base_url();?>public/assets/img/process/process_1_3.jpg" alt="service image"></a></div>
-                              <div class="process-content text-center">
-                                 <h3 class="box-title mb-10"><a href="project-details.html">Monitoring</a></h3>
-                                 <p class="process-text">Integrate the trained model into the desired platform, application, or system.</p>
-                                 <p class="box-number">STEP -03</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="process-item wow <br /> <b>Warning</b>: Undefined array key 7 in <b>E:\web-dev\angfuzsoft\html\atek-html\build\inc\sections\process-v1.php</b> on line <b>62</b><br />" data-wow-delay="<br />
-                              <b>Warning</b>:  Undefined array key 7 in <b>E:\web-dev\angfuzsoft\html\atek-html\build\inc\sections\process-v1.php</b> on line <b>62</b><br />
-                              ">
-                              <div class="process-img mb-20"><a href="project-details.html"><img src="<?=base_url();?>public/assets/img/process/process_1_4.jpg" alt="service image"></a></div>
-                              <div class="process-content text-center">
-                                 <h3 class="box-title mb-10"><a href="project-details.html">Report & Sign-out</a></h3>
-                                 <p class="process-text">Incorporate user feedback and system outcomes for iterative improvements.</p>
-                                 <p class="box-number">STEP -04</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section> -->
-   
- 
-
    <div class="choose-spece space-bottom">
        <!-- <span class="sub-title style1 text-anime-style-2 text-center"><h2></h2></span> -->
        <h2 style="font-size: 40px;" class="text-center">Our Skills</h2>
@@ -187,7 +78,7 @@
                      <div class="title-area">
                        
                         <p class="sec-title text-anime-style-3"><b>IT Solutions Designed to Drive Results</b></p>
-                        <p class="wow fadeInUp">CANATECH employs a talented team of website and digital marketing with eCommerce experts whose main focal point in their web development arsenal is eCommerce. We’ve been working on web development for years and we’ve slowly grown into one of the top website development and digital marketing agencies in the country. Our Web development and eCommerce development skills have propelled us to the top of the talent pool.</p>
+                        <p class="wow fadeInUp">CANATECH employs a talented team of website and digital marketing with eCommerce experts whose main focal point in their web development arsenal is eCommerce. We’ve been working on software development for years and we’ve slowly grown into one of the top website development and digital marketing agencies in the country. Our Web development and application development skills have propelled us to the top of the talent pool.</p>
                      </div>
                      <div class="skill-feature">
                         <h3 class="skill-feature_title mb-3">App Development</h3>
@@ -303,9 +194,9 @@
             <div class="row gy-4 align-items-center justify-content-center">
                <div class="col-md-6 col-xl-3">
                   <div class="counter-card style2 inner-style">
-                     <div class="counter-shape"><span></span></div>
+                     <div class="containerunter-shape"><span></span></div>
                      <div class="media-body">
-                        <h3 class="box-number text-white"><span class="counter-number">232</span></h3>
+                        <h3 class="box-number text-white"><span class="counter-number">50</span>+</h3>
                         <h6 class="counter-title text-white">Clients</h6>
                      </div>
                   </div>
@@ -314,7 +205,7 @@
                   <div class="counter-card style2 inner-style">
                      <div class="counter-shape"><span></span></div>
                      <div class="media-body">
-                        <h3 class="box-number text-white"><span class="counter-number">521</span></h3>
+                        <h3 class="box-number text-white"><span class="counter-number">100</span>+</h3>
                         <h6 class="counter-title text-white">Projects</h6>
                      </div>
                   </div>
@@ -332,7 +223,7 @@
                   <div class="counter-card style2 inner-style">
                      <div class="counter-shape"><span></span></div>
                      <div class="media-body">
-                        <h3 class="box-number text-white"><span class="counter-number">15</span></h3>
+                        <h3 class="box-number text-white"><span class="counter-number">50</span></h3>
                         <h6 class="counter-title text-white">Hard Workers</h6>
                      </div>
                   </div>
@@ -348,7 +239,7 @@
  
 <div class="mb-5 text-center">
    <div class="container">
-      <h2 style="font-size:40px; color:black;">Laravel Development Expertise</h2>
+      <h2 style="font-size:40px; color:black;">Expertise Across Key Industries</h2>
    </div>
 </div>
 
@@ -451,7 +342,7 @@
       <!-- Left Image Column -->
       <div class="col-lg-4 d-flex">
         <div class="rounded overflow-hidden shadow w-100">
-          <img src="<?=base_url();?>public/assets/img/what.png" 
+          <img src="<?=base_url();?>public/assets/img/what11.jpg" 
                alt="Mobile App Development Services" 
                class="img-fluid rounded-4 h-100 w-100 object-fit-cover"
                style="min-height:100%; object-fit: cover;">

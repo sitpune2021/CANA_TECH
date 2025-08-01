@@ -73,7 +73,7 @@
               <div class="details">
                 <p>
                   <a href="https://maps.app.goo.gl/YOUR-UPDATED-LINK" target="_blank">
-                    4th Floor 402, SIT Solution, Konark Icon,<br>
+                    4th Floor 402,Konark Icon,<br>
                     Mundhwa-Kharadi Rd, near Seasons Mall,<br>
                     Magarpatta, Hadapsar,<br>
                     Pune, Maharashtra 411028.
@@ -108,6 +108,30 @@
     </svg>
   </div>
 
+  <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/918983149299" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+  <img src="<?= base_url(); ?>public/assets/img/icon/w.png" alt="WhatsApp" />
+</a>
+
+<style>
+  .whatsapp-float {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    z-index: 999;
+    background-color: #25D366;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+
+  .whatsapp-float img {
+    width: 40px;
+    height: 40px;
+  }
+</style>
+
+
   <!-- Footer Scripts -->
   <script src="<?=base_url();?>public/assets/js/vendor/jquery-3.7.1.min.js"></script>
   <script src="<?=base_url();?>public/assets/js/bootstrap.min.js"></script>
@@ -126,3 +150,4 @@
   <script src="<?=base_url();?>public/assets/js/lenis.min.js"></script>
   <script src="<?=base_url();?>public/assets/js/main.js"></script>
 </footer>
+

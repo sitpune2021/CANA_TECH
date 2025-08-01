@@ -6,7 +6,30 @@
      <title>CANATECH</title>
       <meta name="description" content="">
       <meta name="keywords" content="">
+<style>
+.hero-banner {
+  position: relative;
+  width: 100%;
+  min-height: 0px;
+  overflow: hidden;
+}
 
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+
+@media (max-width: 576px) {
+  .hero-banner {
+   height: 47vh;
+  }
+}
+
+</style>
       <?=view('/include/navbar')?>
 
       <div class="th-hero-wrapper hero-8 overflow-hidden" id="hero" data-bg-src="<?=base_url();?>public/assets/img/bg/hero_bg_8_1.png">
@@ -76,8 +99,73 @@
             </div>
          </div>
       </div>
+
+      <section class="team-area space" data-bg-src="<?=base_url();?>public/assets/img/bg/team_bg_1.png">
+         <div class="container z-index-common">
+            <div class="title-area text-center">
+               <!-- <span class="sub-title text-anime-style-2" style="font-size: 40px;"></span> -->
+               <h2 style="font-size: 40px;">Our Clients</h2>
+         
+            </div>
+            <div class="slider-area team-slider-1">
+               <div class="swiper th-slider teamSlider1 has-shadow" id="teamSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="th-team team-box">
+                           <div class="team-img"><img src="<?=base_url();?>public/assets/img/team/c12.png" alt="Team" width="30%"></div>
+                            
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="th-team team-box">
+                           <div class="team-img"><img src="<?=base_url();?>public/assets/img/team/cab.png" alt="Team"></div>
+                           
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="th-team team-box">
+                           <div class="team-img"><img src="<?=base_url();?>public/assets/img/team/pune2.png" alt="Team"></div>
+                          
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="th-team team-box">
+                           <div class="team-img"><img src="<?=base_url();?>public/assets/img/team/aipex1.jpeg" alt="Team"></div>
+                            
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="th-team team-box">
+                           <div class="team-img"><img src="<?=base_url();?>public/assets/img/team/nagar1.png" alt="Team"></div>
+                           
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="th-team team-box">
+                           <div class="team-img"><img src="<?=base_url();?>public/assets/img/brand/satara.png" alt="Team"></div>
+                        
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="th-team team-box">
+                           <div class="team-img"><img src="<?=base_url();?>public/assets/img/team/ntpl.png" alt="Team"></div>
+                          
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="th-team team-box">
+                           <div class="team-img"><img src="<?=base_url();?>public/assets/img/team/rohida.png" alt="Team"></div>
+                       
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-pagination"></div>
+               </div>
+            </div>
+         </div>
+      </section>
       
-       <div class="about-area position-relative overflow-hidden space" id="about-sec">
+       <div class="about-area position-relative overflow-hidden" id="about-sec">
          <div class="container">
             <div class="row">
                <div class="col-xl-6 col-xxl-7">
@@ -122,7 +210,7 @@
             </div>
          </div>
       </div>
-   <section class="service-area4 smoke-bg overflow-hidden" id="service-sec">
+   <section class="service-area4 smoke-bg overflow-hidden mt-5" id="service-sec">
    <div class="container">
       <div class="row justify-content-center">
          <div class="col-lg-6">
@@ -208,11 +296,20 @@
      <h2 style="font-size:40px;">Why Choose Canatech </h2>      
       </div>
 </section>
+
   
-  <section class="position-relative space-top" style="height:90vh;">
+<!-- <section class="position-relative space-top" style="height: 90vh; min-height: 300px;">
   <div class="position-absolute top-0 start-0 w-100 h-100">
-    <img src="<?= base_url(); ?>public/assets/img/normal/banner.jpg" alt="Website Banner" class="w-100 h-100 object-fit-cover">
+    <img src="<?= base_url(); ?>public/assets/img/normal/banner.jpg" 
+         alt="Website Banner" 
+         class="w-100 h-100 object-fit-cover"
+         style="object-fit: cover; object-position: center;">
   </div>
+</section>  -->
+
+<section class="hero-banner">
+  <img src="<?= base_url(); ?>public/assets/img/normal/banner.jpg" 
+       alt="Website Banner">
 </section>
 
 <section class="section_two bg-light mt-5">
@@ -229,7 +326,7 @@
       <!-- Left Image Column -->
       <div class="col-lg-4 d-flex">
         <div class="rounded overflow-hidden shadow w-100">
-          <img src="<?=base_url();?>public/assets/img/what.png" 
+          <img src="<?=base_url();?>public/assets/img/what11.jpg" 
                alt="Mobile App Development Services" 
                class="img-fluid rounded-4 h-100 w-100 object-fit-cover"
                style="min-height:100%; object-fit: cover;">
@@ -295,9 +392,110 @@
     </div>
   </div>
 </section>
+       <section class="testimonial-area2 overflow-hidden space" id="testi-sec">
+         <div class="container">
+            <div class="title-area text-center">
+               <span class="sub-title text-anime-style-2">Testimonial</span>
+               <h2 class="sec-title text-anime-style-3">What Client Say About us</h2>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-xl-12">
+                  <div class="testi-review" data-bg-src="<?=base_url();?>public/assets/img/bg/map.png">
+                     <div class="testi-box hover-item item-active">
+                       <div class="testi-box_content feature-card-active-wrap" style="padding: 20px;">
 
- 
-      <section class="team-area space-bottom mt-5 " data-bg-src="<?=base_url();?>public/assets/img/bg/team_bg_1.png">
+                           <p class="testi-box_text">“Cloud computing services provide a wide range of offerings tailored to different business needs, enabling organizations to harness the power of cloud technology. Here are some key services provided in cloud computing solutions.”</p>
+                           <div class="testi-box_review"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="testi-box_profile">
+                           <div class="testi-box_avater"><span></span> <img src="<?=base_url();?>public/assets/img/testimonial/man.png" alt="testimonial"></div>
+                           <div class="media-body">
+                              <h3 class="box-title">Loan Management</h3>
+                              <span class="testi-box_desig">Dr.Swapnil Thakare</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="testi-box hover-item">
+                       <div class="testi-box_content feature-card-active-wrap" style="padding: 20px;">
+
+                           <p class="testi-box_text">“Cloud computing services provide a wide range of offerings tailored to different business needs, enabling organizations to harness the power of cloud technology. Here are some key services provided in cloud computing solutions.”</p>
+                           <div class="testi-box_review"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="testi-box_profile">
+                           <div class="testi-box_avater"><span></span> <img src="<?=base_url();?>public/assets/img/testimonial/man.png" alt="testimonial"></div>
+                           <div class="media-body">
+                              <h3 class="box-title">Bharat Distribution</h3>
+                              <span class="testi-box_desig">Sandip Bhandari</span>
+                           </div>
+                        </div>
+                     </div>
+                   
+                     <div class="testi-box hover-item">
+                       <div class="testi-box_content feature-card-active-wrap" style="padding: 20px;">
+
+                           <p class="testi-box_text">“Cloud computing services provide a wide range of offerings tailored to different business needs, enabling organizations to harness the power of cloud technology. Here are some key services provided in cloud computing solutions.”</p>
+                           <div class="testi-box_review"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="testi-box_profile">
+                           <div class="testi-box_avater"><span></span> <img src="<?=base_url();?>public/assets/img/testimonial/man.png" alt="testimonial"></div>
+                           <div class="media-body">
+                              <h3 class="box-title">Savvy</h3>
+                              <span class="testi-box_desig">Vijay Singh Dubbal</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="testi-box hover-item">
+                       <div class="testi-box_content feature-card-active-wrap" style="padding: 20px;">
+
+                           <p class="testi-box_text">“Cloud computing services provide a wide range of offerings tailored to different business needs, enabling organizations to harness the power of cloud technology. Here are some key services provided in cloud computing solutions.”</p>
+                           <div class="testi-box_review"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="testi-box_profile">
+                           <div class="testi-box_avater"><span></span> <img src="<?=base_url();?>public/assets/img/testimonial/man.png" alt="testimonial"></div>
+                           <div class="media-body">
+                              <h3 class="box-title">Payroll Management</h3>
+                              <span class="testi-box_desig">Shankar Shinde</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="shape-mockup movingX d-none d-xl-block" data-top="30%" data-left="-6%"><img class="gmovingX" src="<?=base_url();?>public/assets/img/shape/shape_2_2.png" alt="shape"></div>
+            <div class="shape-mockup jump d-none d-xl-block" data-bottom="0%" data-left="-13%"><img src="<?=base_url();?>public/assets/img/shape/small-cloud.png" alt="shape"></div>
+            <div class="shape-mockup spin d-none d-xl-block" data-bottom="30%" data-right="-16.5%"><img src="<?=base_url();?>public/assets/img/shape/shape_2_5.png" alt="shape"></div>
+         </div>
+      </section>
+ <style type="text/css">/* Make testimonial text box height smaller and add max-height */
+.testi-box_text {
+    font-size: 16px;
+    line-height: 1.5;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Reduce padding and font size for smaller devices */
+@media (max-width: 768px) {
+    .testi-box_text {
+        font-size: 14px;
+        max-height: 80px;
+    }
+
+    .testi-box {
+        padding: 15px;
+    }
+
+    .testi-box_profile h3.box-title {
+        font-size: 16px;
+    }
+
+    .testi-box_desig {
+        font-size: 14px;
+    }
+}
+</style>
+ <section class="team-area space-bottom " data-bg-src="<?=base_url();?>public/assets/img/bg/team_bg_1.png">
          <div class="container z-index-common">
             <div class="title-area text-center">
                <!-- <span class="sub-title text-anime-style-2" style="font-size: 40px;"></span> -->

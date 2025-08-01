@@ -91,7 +91,7 @@
       </div>
     </div>
 
-    <div class="cards">
+    <div class="cards mb-5">
       <div class="card">
         <h3>Innovative Problem Solvers</h3>
         <p>We thrive on challenges, designing and delivering user experiences that help our clients stay ahead in the rapidly evolving digital landscape.</p>
@@ -110,10 +110,7 @@
       </div>
     </div>
   </section>
-   <section class="process-section">
-    <h1>Our Trusted Mobile App Development Process</h1>
-    <img src="<?= base_url(); ?>public/assets/img/normal/react1.jpg">
-  </section>
+ 
   <?=view('/include/footer')?>
 </body>
 </html>

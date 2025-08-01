@@ -32,8 +32,6 @@
       <link rel="stylesheet" href="<?=base_url();?>public/assets/css/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
          <!-- AOS Animation CSS -->
          <!-- Include Bootstrap CSS -->
@@ -55,7 +53,7 @@
                 <div class="col-auto d-flex align-items-center">
                      <div class="header-logo">
                         <a href="<?=base_url();?>">
-                           <img src="<?=base_url();?>public/assets/img/canatech.png" alt="Canatech" style="width: 150px; height: auto;">
+                           <img src="<?=base_url();?>public/assets/img/canatech.png" alt="Canatech" style="width: 130px; height: auto;">
                         </a>
                      </div>
                 </div>
@@ -84,7 +82,7 @@
                                              <li><a href="<?=base_url();?>Contentmanagment">Content Management System</a></li>
                                           </ul>
                                        </li>
-                                       <li><a href="<?=base_url(); ?>Appdevelopment">App Development</a></li>
+                                       <li><a href="<?=base_url(); ?>Appdevelopment">Mobile App Development</a></li>
                                        <li><a href="<?=base_url(); ?>Softdeveloment">Software Development</a></li>
                                        <li><a href="<?=base_url(); ?>DigitalMarketing">Digital Marketing</a></li>
                                        <li><a href="<?=base_url(); ?>Artificialinte">Artificial Intelligence (AI)</a></li>

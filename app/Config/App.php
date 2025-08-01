@@ -16,8 +16,9 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    // public string $baseURL = 'http://192.168.1.21/canatech/';
-    public string $baseURL = 'https://canatech.satarait.com/';
+    // public string $baseURL = 'http://localhost/canatech/';
+    // public string $baseURL = 'https://canatech.satarait.com/';
+    public string $baseURL = 'http://thecanatech.com/';
 
 
     /**

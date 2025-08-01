@@ -1,15 +1,14 @@
+
 <!doctype html>
 <html class="no-js" lang="zxx">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>CANATECH</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-</head>
- 
-<body>
-  <?=view('/include/navbar')?>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+     <title>Canatech</title>
+     <meta name="description" content="">
+      <meta name="keywords" content="">
+
+      <?=view('/include/navbar')?>
 
 <section class="portfolio-section py-5">
   <div class="container">
@@ -25,130 +24,111 @@
       </div>
 
       <!-- Project 1 -->
-      <div class="row gy-30 mb-60 align-items-center">
-         <div class="col-lg-6">
-            <div class="about-image ab-img16 global-img">
-               <img src="http://192.168.1.35/satarait/public/assets/images/swiss_digibank.png" alt="Swiss DigiBank">
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="about-item style-16 ps-xxl-4 ms-xxl-4">
-               <div class="about-content">
-                  <h4 class="text-anime-style-2">Swiss DigiBank Banking Software</h4>
-                  <p class="  wow fadeInUp" data-wow-delay=".3s">The Swiss DigiBank Banking Software is a comprehensive, end-to-end solution designed specifically for cooperative banks.
-                       <br>
-                  Key Features:
-                    <br>
-                   Dashboard & Analytics: Realtime operational insights.
-                     <br>
-                   Company Management: Manage profiles, branches, promoters, directors, and shareholdings.
-                     <br>
-                   User Management: Advanced roles and permissions with secure access control.
-                     <br>
-                   Member Management: Create and manage members, minors, share certificates, transfer histories, and compliance forms (15G/15H).
-                     <br>
-                   Additional modules to cover all banking workflows efficiently.
-                     <br>
-                  This robust platform helps cooperative banks digitize their processes while ensuring compliance and operational excellence.
-                  </p>
-            
-              
-               </div>
-            </div>
-         </div>
-      </div>
+   <div class="row gy-4 mb-5 align-items-center">
+  <!-- Image Column -->
+  <div class="col-lg-6">
+    <div class="about-image ab-img16 global-img">
+      <img src="<?= base_url() ?>public/assets/img/brand/bank.jpg" alt="Swiss DigiBank Banking Software" class="img-fluid rounded shadow">
+    </div>
+  </div>
 
-      <!-- Project 2 -->
-      <div class="row gy-30 mb-60 align-items-center">
-         <div class="col-lg-6 order-1 order-lg-0">
-            <div class="about-item style-16 pe-xxl-4 me-xxl-4">
-               <div class="about-content">
-                  <h4 class="  text-anime-style-2">Savvy Water Distribution System</h4>
-                  <p class=" wow fadeInUp">We developed Savvy Water Distribution System to modernize the operations of Aqua water distribution businesses.
-                       <br>
-                  Objectives:
-                    <br>
-                   Streamline order management, delivery tracking, and vendor coordination.
-                     <br>
-                   Facilitate realtime communication between customers, drivers, and admin staff.
-                     <br>
-                   Simplify inventory and thirdparty vendor management.
-                     <br>
-                  User Roles:             
-                   Customers, Drivers, Thirdparty Vendors
-                   Centralized Admin for monitoring and control
-                  This solution delivers a seamless experience for both customers and internal teams, boosting efficiency and customer satisfaction.
-                  </p>
-              
-              
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-6 order-0 order-lg-1">
-            <div class="about-image ab-img16 global-img">
-                <img src="<?= base_url(); ?>public/assets/img/Artificial/savy.jpg" alt="Savvy Water">
-            </div>
-         </div>
+  <!-- Content Column -->
+  <div class="col-lg-6">
+    <div class="about-item style-16 ps-xxl-4 ms-xxl-4">
+      <div class="about-content">
+        <h4 class="text-anime-style-2 mb-3">Swiss DigiBank Banking Software</h4>
+        <p class="wow fadeInUp" data-wow-delay=".3s">
+          The Swiss DigiBank Banking Software is a comprehensive end-to-end solution designed specifically for cooperative banks.
+        </p>
+        <ul class="list-unstyled ps-3 wow fadeInUp" data-wow-delay=".4s">
+          <li><strong>Dashboard & Analytics:</strong> Real-time operational insights.</li>
+          <li><strong>Company Management:</strong> Manage profiles, branches, promoters, directors, and shareholdings.</li>
+          <li><strong>User Management:</strong> Advanced roles and permissions with secure access control.</li>
+          <li><strong>Member Management:</strong> Handle members, minors, share certificates, transfer history, and compliance forms (15G/15H).</li>
+          <li><strong>Modular System:</strong> Covers all banking workflows efficiently.</li>
+        </ul>
+        <p class="wow fadeInUp" data-wow-delay=".5s">
+          This robust platform empowers cooperative banks to digitize their operations while ensuring compliance and operational excellence.
+        </p>
       </div>
+    </div>
+  </div>
+</div>
+
+
+ <!-- Project 2 -->
+<div class="row gy-4 mb-5 align-items-center">
+  <!-- Content Column -->
+  <div class="col-lg-6 order-1 order-lg-0">
+    <div class="about-item style-16 pe-xxl-4 me-xxl-4">
+      <div class="about-content">
+        <h4 class="text-anime-style-2 mb-3">Savvy Water Distribution System</h4>
+        <p class="wow fadeInUp" data-wow-delay=".3s">
+          We developed the Savvy Water Distribution System to modernize the operations of Aqua water distribution businesses.
+        </p>
+        <p class="fw-bold mt-3 mb-2 wow fadeInUp" data-wow-delay=".4s">Objectives:</p>
+        <ul class="list-unstyled ps-3 wow fadeInUp" data-wow-delay=".5s">
+          <li>Streamline order management, delivery tracking, and vendor coordination.</li>
+          <li>Facilitate real-time communication between customers, drivers, and admin staff.</li>
+          <li>Simplify inventory and third-party vendor management.</li>
+        </ul>
+        <p class="fw-bold mt-3 mb-2 wow fadeInUp" data-wow-delay=".6s">User Roles:</p>
+        <ul class="list-unstyled ps-3 wow fadeInUp" data-wow-delay=".7s">
+          <li>Customers</li>
+          <li>Drivers</li>
+          <li>Third-party Vendors</li>
+          <li>Centralized Admin for monitoring and control</li>
+        </ul>
+        <p class="wow fadeInUp" data-wow-delay=".8s">
+          This solution delivers a seamless experience for both customers and internal teams, boosting operational efficiency and customer satisfaction.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Column -->
+  <div class="col-lg-6 order-0 order-lg-1">
+    <div class="about-image ab-img16 global-img">
+      <img src="<?= base_url(); ?>public/assets/img/brand/savvynew.jpg" alt="Savvy Water Distribution System Interface" class="img-fluid rounded shadow">
+    </div>
+  </div>
+</div>
+
+
+  <!-- Project 3 -->
+<div class="row gy-4 mb-5 align-items-center">
+  <!-- Image Column -->
+  <div class="col-lg-6">
+    <div class="about-image ab-img16 global-img">
+      <img src="<?= base_url(); ?>public/assets/img/Artificial/2.jpg" alt="OK Maintenance System Dashboard" class="img-fluid rounded shadow">
+    </div>
+  </div>
+
+  <!-- Content Column -->
+  <div class="col-lg-6">
+    <div class="about-item style-16 ps-xxl-4 ms-xxl-4">
+      <div class="about-content">
+        <h4 class="text-anime-style-2 mb-3">OK Maintenance</h4>
+        <p class="wow fadeInUp" data-wow-delay=".3s">
+          OK Maintenance is a smart facility and maintenance management system designed to help organizations effectively:
+        </p>
+        <ul class="list-unstyled ps-3 wow fadeInUp" data-wow-delay=".4s">
+          <li>Monitor infrastructure and equipment health.</li>
+          <li>Track and assign maintenance tasks.</li>
+          <li>Schedule preventive maintenance efficiently.</li>
+        </ul>
+        <p class="wow fadeInUp" data-wow-delay=".5s">
+          This platform ensures timely issue resolution and smooth facility operations across departments or locations.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
       <!-- Project 3 -->
       <div class="row gy-30 align-items-center">
-         <div class="col-lg-6">
-            <div class="about-image ab-img16 global-img">
-               <img src="<?= base_url(); ?>public/assets/img/Artificial/2.jpg" alt="GSB Platform">
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="about-item style-16 ps-xxl-4 ms-xxl-4">
-               <div class="about-content">
-                  <h4 class=" text-anime-style-2">OK Maintenance</h4>
-                  <p class=" wow fadeInUp">A maintenance and facility management system designed to help businesses monitor, track, and schedule maintenance activities effectively. 
-                  </p>
-               
-              
-               </div>
-            </div>
-         </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="row gy-30  align-items-center space">
-         <div class="col-lg-6 order-1 order-lg-0">
-            <div class="about-item style-16 pe-xxl-4 me-xxl-4">
-               <div class="about-content">
-                  <h4 class=" text-anime-style-2"> ISO Audit Management System</h4>
-                  <p class=" wow fadeInUp">We developed a web based ISO Audit Management Platform to help food laboratories align with international quality and safety standards like ISO/IEC 17025, ISO 22000, and HACCP.
-                       <br>
-                  Core Features:
-                    <br>
-                   Test & examination workflow automation.
-                     <br>
-                   Document management with secure storage, version control, and retention policies.
-                     <br>
-                   Rolebased access control for audit compliance.
-                     <br>
-                  This platform ensures laboratories maintain the highest standards of quality assurance and operational efficiency.
-
-                  </p>
-              
-              
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-6 order-0 order-lg-1">
-            <div class="about-image ab-img16 global-img">
-               <img src="http://192.168.1.35/satarait/public/assets/images/savvy_water.png" alt="Savvy Water">
-            </div>
-         </div>
-      </div>
-
-      <!-- Project 3 -->
-      <div class="row gy-30 align-items-center">
-         <div class="col-lg-6">
-            <div class="about-image ab-img16 global-img">
-               <img src="" alt="GSB Platform">
-            </div>
-         </div>
+        
          <div class="col-lg-6">
             <div class="about-item style-16 ps-xxl-4 ms-xxl-4">
                <div class="about-content">
@@ -173,47 +153,53 @@
                </div>
             </div>
          </div>
-      </div>
-
-        <div class="row  mt-10 align-items-center">
-         <div class="col-lg-6 order-1 order-lg-0">
-            <div class="about-item style-16 pe-xxl-4 me-xxl-4">
-               <div class="about-content">
-                  <h4 class=" text-anime-style-2">Learning Management System (LMS)</h4>
-                  <p class=" wow fadeInUp">Our LMS platform is a centralized educational solution for coaching institutes, freelancers, and students.
-                       <br>
-                Goals:
-                  <br>
-                 Enable educators to create, manage, and showcase courses.
-                   <br>
-                 Provide students access to skillbased learning opportunities.
-                   <br>
-                 Generate revenue through subscriptions, affiliate programs, and platform fees.
-                   <br>
-                Features:
-                  <br>
-                 Course listing & discovery with skillbased categories.
-                   <br>
-                 Payment gateway for enrollments and subscriptions.
-                   <br>
-                 Video previews of institutes.
-                   <br>
-                 Premium subscriptions for enhanced visibility.
-                 <br>
-                This scalable platform empowers education providers to reach more students while ensuring a seamless learning journey.
-
-                  </p>
-              
-              
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-6 order-0 order-lg-1">
+          <div class="col-lg-6">
             <div class="about-image ab-img16 global-img">
-               <img src="http://192.168.1.35/satarait/public/assets/images/savvy_water.png" alt="Savvy Water">
+               <img src="<?= base_url(); ?>public/assets/img/brand/ini.jpg" alt="GSB Platform">
             </div>
          </div>
       </div>
+<div class="row gy-4 align-items-start mt-10">
+   <!-- Project 1 -->
+   <div class="col-lg-6">
+      <div class="about-item style-16 pe-xxl-4 me-xxl-4">
+         <div class="about-content">
+            <h4 class="text-anime-style-2">Learning Management System (LMS)</h4>
+            <p class="wow fadeInUp">
+               Our LMS platform is a centralized educational solution for coaching institutes, freelancers, and students.<br><br>
+               <strong>Goals:</strong><br>
+               Enable educators to create, manage, and showcase courses.<br>
+               Provide students access to skill-based learning opportunities.<br>
+               Generate revenue through subscriptions, affiliate programs, and platform fees.<br><br>
+               <strong>Features:</strong><br>
+               Course listing & discovery with skill-based categories.<br>
+               Payment gateway for enrollments and subscriptions.<br>
+               Video previews of institutes.<br>
+               Premium subscriptions for enhanced visibility.<br><br>
+               This scalable platform empowers education providers to reach more students while ensuring a seamless learning journey.
+            </p>
+         </div>
+      </div>
+   </div>
+
+   <!-- Project 2 -->
+   <div class="col-lg-6">
+      <div class="about-item style-16 pe-xxl-4 me-xxl-4 mt-10">
+         <div class="about-content">
+            <h4 class="text-anime-style-2">ISO Audit Management System</h4>
+            <p class="wow fadeInUp">
+               We developed a web-based ISO Audit Management Platform to help food laboratories align with international quality and safety standards like ISO/IEC 17025, ISO 22000, and HACCP.<br><br>
+               <strong>Core Features:</strong><br>
+               Test & examination workflow automation.<br>
+               Document management with secure storage, version control, and retention policies.<br>
+               Role-based access control for audit compliance.<br><br>
+               This platform ensures laboratories maintain the highest standards of quality assurance and operational efficiency.
+            </p>
+         </div>
+      </div>
+   </div>
+</div>
+
 
    </div>
  
@@ -226,23 +212,7 @@
   </div>
 
 </section>
-<script>
-  // Scroll animation logic
-  function animateOnScroll() {
-    const elements = document.querySelectorAll('.animate-card');
-    const windowHeight = window.innerHeight;
-
-    elements.forEach(el => {
-      const elementTop = el.getBoundingClientRect().top;
-      if (elementTop < windowHeight - 100) {
-        el.classList.add('visible');
-      }
-    });
-  }
-
-  window.addEventListener('scroll', animateOnScroll);
-  window.addEventListener('load', animateOnScroll);
-</script>
+ 
 
 <?=view('/include/footer')?>
 </body>

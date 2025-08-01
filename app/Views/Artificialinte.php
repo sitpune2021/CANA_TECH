@@ -12,13 +12,26 @@
 
 <?=view('/include/navbar')?>
 
-<!-- Banner Section -->
- <section class="ai-banner">
-  <div class="container">
-    <h1 class="text-white">Artificial Intelligence</h1>
-    <p class="text-white">Achieve your business goals faster with our expert AI consulting services and solutions for sustainable growth</p>
-  </div>
-</section>
+ 
+
+  <section class="position-relative" style="height: 70vh;">
+    <div class="position-absolute top-0 start-0 w-100 h-100">
+      <img src="<?= base_url(); ?>public/assets/img/Artificial/banner.png" alt="ML Background" class="w-100 h-100 object-fit-cover">
+    </div>
+    <div class="position-relative d-flex align-items-center h-100">
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-lg-8 col-md-10">
+            <h1 class="display-3 fw-bold mb-3 text-white">Artificial Intelligence</h1>
+            <p class="fs-3 mb-4 text-white">
+             Achieve your business goals faster with our expert AI consulting services and solutions for sustainable growth
+            </p>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 <!-- Section 2: Redefining What's Achievable -->
